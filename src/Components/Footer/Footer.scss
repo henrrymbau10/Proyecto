@@ -1,0 +1,55 @@
+.footer {
+    background-color: #4db5ff;
+    margin-top: 7rem;
+    padding-bottom: 4rem;
+
+    &__tittle {
+        padding-top: 2rem;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+
+        P {
+            margin-right: 3rem;
+        }
+    }
+
+    &__icons {
+        display: flex;
+        justify-content: center;
+        margin: 2rem 0 3rem 0;
+
+        svg {
+            color: white;
+        }
+
+        &__git {
+            padding: 10px 15px;
+            background-color: black;
+            margin-right: 1rem;
+            border-radius: 10px;
+            border: 1px solid black;
+            transition: .5s;
+
+            &:hover {
+                background-color: #4db5ff;
+            }
+        }
+
+
+        &__linkedin {
+            padding: 10px 15px;
+            background-color: black;
+            border-radius: 10px;
+            border: 1px solid black;
+            transition: .5s;
+
+            &:hover {
+                background-color: #4db5ff;
+            }
+        }
+    }
+}
