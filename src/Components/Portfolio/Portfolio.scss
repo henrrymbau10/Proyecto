@@ -27,7 +27,9 @@
 
                 img {
                     width: 100%;
+                    height: 284px;
                     border-radius: 20px;
+                    object-fit: cover;
                 }
 
                 p {
@@ -40,8 +42,7 @@
                 &__button {
                     display: flex;
                     justify-content: flex-start;
-
-
+                    cursor: pointer;
 
                     &__github {
                         font-size: 18px;
@@ -52,6 +53,7 @@
                         padding: 0.5rem 1rem;
                         margin-right: 1rem;
                         transition: .3s;
+                        cursor: pointer;
 
                         &:hover {
                             background-color: white;
@@ -67,6 +69,7 @@
                         border-radius: 5px;
                         padding: 0.5rem 1rem;
                         transition: .3s;
+                        cursor: pointer;
 
                         &:hover {
                             background-color: white;

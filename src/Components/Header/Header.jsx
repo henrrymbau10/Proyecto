@@ -7,9 +7,11 @@ import me from '../../Assets/me.png'
 import uk from '../../Assets/united-kingdom.svg'
 import spain from '../../Assets/spain.svg'
 import CV from '../../Assets/CV Henrry.pdf'
+import { useTranslation } from "react-i18next"
 
 
 const Header = () => {
+    const [t, i18n] = useTranslation("global")
 
     const scrollTo = (nodeSelector) => {
         const domNode = document.querySelector(nodeSelector)
@@ -31,13 +33,13 @@ const Header = () => {
 
                 <div className="header__container__center">
                     <div className="header__container__center__name">
-                        <h4>Hello I'm</h4>
-                        <h1>Henrry Murana Bautista</h1>
-                        <h3>Front End Developer</h3>
+                        <h4>{t("header.hello")}</h4>
+                        <h1>{t("header.name")}</h1>
+                        <h3>{t("header.developer")}</h3>
                     </div>
                     <div className="header__container__center__buttons">
-                        <a className="header__container__center__buttons__cv" href={CV} download>Download CV</a>
-                        <a onClick={() => scrollTo('.contact')} href={"#contact"} className="header__container__center__buttons__talk">Let's Talk</a>
+                        <a className="header__container__center__buttons__cv" href={CV} download>{t("header.cv")}</a>
+                        <a onClick={() => scrollTo('.contact')} href={"#contact"} className="header__container__center__buttons__talk">{t("header.talk")}</a>
                     </div>
                     <div className="header__container__center__image">
                         <img src={me} alt="me" />
@@ -46,12 +48,12 @@ const Header = () => {
 
                 <div className="header__container__rigth">
                     <div className="header__container__rigth__language">
-                        <img src={spain} alt="spain" />
+                        <img onClick={() => i18n.changeLanguage("es")} src={spain} alt="spain" />
                         <p>|</p>
-                        <img src={uk} alt="uk" />
+                        <img onClick={() => i18n.changeLanguage("en")} src={uk} alt="uk" />
                     </div>
                     <div className="header__container__rigth__scroll">
-                        <p>Scroll Down</p>
+                        <p>{t("header.scroll")}</p>
                     </div>
                 </div>
             </div>

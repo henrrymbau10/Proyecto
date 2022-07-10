@@ -1,0 +1,49 @@
+{
+    "header": {
+        "hello": "Hello I'm",
+        "name": "Henrry Murana Bautista",
+        "developer": "Front End Developer",
+        "cv": "Download CV",
+        "talk": "Let's Talk",
+        "scroll": "Scroll Down"
+    },
+    "about": {
+        "know": "Get to Know",
+        "about": "About Me",
+        "experience": "Experience",
+        "months": "6+ Months",
+        "clients": "Clients",
+        "projects": "Projects",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "talk": "Let's Talk"
+    },
+    "experience": {
+        "skills": "What Skills I Have",
+        "experience": "My Experience",
+        "frontend": "Frontend Development",
+        "backend": "Backend Development",
+        "experienced": "Experienced",
+        "intermediate": "Intermediate",
+        "basic": "Basic"
+    },
+    "portfolio": {
+        "trabajo": "MY recent Work",
+        "demo": "Live Demo"
+    },
+    "contact": {
+        "touch": "Get In Touch",
+        "contact": "Contact Me",
+        "message": "Send me a message",
+        "name": "Your Full Name",
+        "email": "Your Email",
+        "text": "Your Message",
+        "button": "Send Message"
+    },
+    "footer": {
+        "home": "Home",
+        "about": "About",
+        "experience": "Experience",
+        "portfolio": "Porfolio",
+        "contact": "Contact Me"
+    }
+}

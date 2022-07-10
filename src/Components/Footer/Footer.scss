@@ -13,7 +13,8 @@
         margin-top: 1rem;
 
         P {
-            margin-right: 3rem;
+            margin: 0rem 1.5rem 0 1.5rem;
+            cursor: pointer;
         }
     }
 
@@ -33,6 +34,7 @@
             border-radius: 10px;
             border: 1px solid black;
             transition: .5s;
+            cursor: pointer;
 
             &:hover {
                 background-color: #4db5ff;
@@ -46,6 +48,7 @@
             border-radius: 10px;
             border: 1px solid black;
             transition: .5s;
+            cursor: pointer;
 
             &:hover {
                 background-color: #4db5ff;

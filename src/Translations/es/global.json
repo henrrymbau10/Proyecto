@@ -1,0 +1,49 @@
+{
+    "header": {
+        "hello": "Hola soy",
+        "name": "Henrry Muraña Bautista",
+        "developer": "Desarrollador Front End",
+        "cv": "Descargar CV",
+        "talk": "Hablemos",
+        "scroll": "Desliza abajo"
+    },
+    "about": {
+        "know": "Conoce",
+        "about": "Acerca de Mi",
+        "experience": "Experiencia",
+        "months": "6+ Meses",
+        "clients": "Clientes",
+        "projects": "Proyectos",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "talk": "Hablemos"
+    },
+    "experience": {
+        "skills": "Que Habilidades Tengo",
+        "experience": "Experiencia",
+        "frontend": "Desarrollo Frontend",
+        "backend": "Desarrollo Backend",
+        "experienced": "Experimentado",
+        "intermediate": "Intermedio",
+        "basic": "Basico"
+    },
+    "portfolio": {
+        "trabajo": "Mis trabajos recientes",
+        "demo": "Demo en Vivo"
+    },
+    "contact": {
+        "touch": "Ponte en contacto",
+        "contact": "Conmigo",
+        "message": "Enviame un mensaje",
+        "name": "Tu Nombre Completo",
+        "email": "Tu Correo",
+        "text": "Tu Mensaje",
+        "button": "Enviar Mensaje"
+    },
+    "footer": {
+        "home": "Hogar",
+        "about": "Acerca de",
+        "experience": "Experiencia",
+        "portfolio": "Porfolio",
+        "contact": "Contactme"
+    }
+}
