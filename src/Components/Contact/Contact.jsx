@@ -32,7 +32,7 @@ const Contact = () => {
                         <p>henrrymbau</p>
                         <p className="contact__container__left__box__blue">{t("contact.message")}</p>
                     </div>
-                    <a href="https://api.whatsapp.com/send?phone=34722464208&text=Hola!%20Podemos%20agendar%20una%20llamada?" target="_blank" rel="noreferrer">
+                    <a href="https://api.whatsapp.com/send?phone=34722464208&text=Hola%20Henrry!%20Podemos%20agendar%20una%20llamada?" target="_blank" rel="noreferrer">
                         <div className="contact__container__left__box">
                             <AiOutlineWhatsApp />
                             <h3>WhatsApp</h3>

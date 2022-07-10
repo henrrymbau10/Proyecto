@@ -18,10 +18,17 @@
 
         &__left {
             width: 50%;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
 
             &__img {
+
                 img {
                     width: 300px;
+                    background-color: #4db5ff;
+                    border-radius: 30px;
                 }
             }
         }
@@ -88,6 +95,49 @@
                     &:hover {
                         background-color: white;
                     }
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width: 300px) and (max-width:859px) {
+        &__tittle {
+            h1 {
+                font-size: 28px;
+            }
+        }
+
+        &__container {
+            flex-direction: column;
+            align-items: center;
+
+            &__right {
+                width: 100%;
+                margin: 0 3rem 0 3rem;
+
+                &__boxes {
+                    flex-wrap: wrap;
+
+                    &__individual {
+                        width: 250px;
+                        margin: 0 2rem 2rem 2rem;
+                    }
+                }
+
+                &__text {
+                    width: 90%;
+                    margin: 0 2rem 0 2rem;
+                }
+            }
+
+            &__left {
+                flex-direction: column;
+                align-items: center;
+
+                &__img {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
                 }
             }
         }

@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.scss'
-import me from '../../Assets/me-about.jpg'
+import me from '../../Assets/me-about.jpeg'
 import { GiSandsOfTime } from 'react-icons/gi';
 import { GrWorkshop } from 'react-icons/gr';
 import { VscFolderLibrary } from 'react-icons/vsc';

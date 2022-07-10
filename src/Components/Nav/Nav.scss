@@ -25,12 +25,24 @@
             display: flex;
             color: rgba(255, 255, 255, 0.6);
             font-size: 1.1rem;
+            cursor: pointer;
 
             &:hover {
                 background: rgba(0, 0, 0, 0.4);
             }
-
-
         }
+
+        &__language {
+            display: flex;
+
+
+            img {
+                width: 20px;
+                margin: 0 .5rem 0 .5rem;
+                cursor: pointer;
+            }
+        }
+
+
     }
 }
