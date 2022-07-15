@@ -57,4 +57,18 @@
             }
         }
     }
+
+    @media screen and (min-width: 300px) and (max-width:859px) {
+        &__container {
+            flex-direction: column;
+            padding: 0 2rem 0 2rem;
+
+            &__box {
+                width: 100%;
+                margin-top: 2rem;
+
+                &__title {}
+            }
+        }
+    }
 }

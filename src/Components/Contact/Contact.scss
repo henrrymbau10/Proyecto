@@ -99,4 +99,36 @@
             }
         }
     }
+
+    @media screen and (min-width: 300px) and (max-width:859px) {
+        height: 100%;
+
+        &__container {
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+
+            &__left {
+                width: 100%;
+                text-align: -webkit-center;
+
+                &__box {
+                    width: 80%;
+                    max-width: 467px;
+                    margin-right: 0;
+                }
+            }
+
+            &__right {
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+
+                &__inputs {
+                    max-width: 465px;
+                    margin-top: 2rem;
+                }
+            }
+        }
+    }
 }

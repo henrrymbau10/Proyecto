@@ -11,7 +11,7 @@ import { useTranslation } from "react-i18next"
 
 
 const Nav = () => {
-    const [i18n] = useTranslation("global")
+    const [t, i18n] = useTranslation("global")
 
     const scrollTo = (nodeSelector) => {
 

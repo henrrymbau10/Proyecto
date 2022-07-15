@@ -4,12 +4,14 @@ import { AiFillLinkedin } from 'react-icons/ai';
 import { AiFillGithub } from 'react-icons/ai';
 import { AiOutlineMail } from 'react-icons/ai';
 import me from '../../Assets/me.png'
+import uk from '../../Assets/united-kingdom.svg'
+import spain from '../../Assets/spain.svg'
 import CV from '../../Assets/CV Henrry.pdf'
 import { useTranslation } from "react-i18next"
 
 
 const Header = () => {
-    const [t] = useTranslation("global")
+    const [t, i18n] = useTranslation("global")
 
     const scrollTo = (nodeSelector) => {
         const domNode = document.querySelector(nodeSelector)
@@ -46,7 +48,9 @@ const Header = () => {
 
                 <div className="header__container__rigth">
                     <div className="header__container__rigth__language">
-
+                        <img onClick={() => i18n.changeLanguage("es")} src={spain} alt="spain" />
+                        <p>|</p>
+                        <img onClick={() => i18n.changeLanguage("en")} src={uk} alt="uk" />
                     </div>
                     <div className="header__container__rigth__scroll">
                         <p>{t("header.scroll")}</p>
